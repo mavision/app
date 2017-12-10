@@ -4,9 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "3440a0ed22f91963d650b4dc7b7684c0",
-    "packages": [],
-    "packages-dev": [
+    "content-hash": "4f4dbb283f2ff2ec517ac296f5eeec8e",
+    "packages": [
         {
             "name": "doctrine/inflector",
             "version": "v1.2.0",
@@ -75,67 +74,17 @@
             "time": "2017-07-22T12:18:28+00:00"
         },
         {
-            "name": "fzaninotto/faker",
-            "version": "v1.7.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/fzaninotto/Faker.git",
-                "reference": "d3ed4cc37051c1ca52d22d76b437d14809fc7e0d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/d3ed4cc37051c1ca52d22d76b437d14809fc7e0d",
-                "reference": "d3ed4cc37051c1ca52d22d76b437d14809fc7e0d",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^5.3.3 || ^7.0"
-            },
-            "require-dev": {
-                "ext-intl": "*",
-                "phpunit/phpunit": "^4.0 || ^5.0",
-                "squizlabs/php_codesniffer": "^1.5"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.8-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Faker\\": "src/Faker/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "François Zaninotto"
-                }
-            ],
-            "description": "Faker is a PHP library that generates fake data for you.",
-            "keywords": [
-                "data",
-                "faker",
-                "fixtures"
-            ],
-            "time": "2017-08-15T16:48:10+00:00"
-        },
-        {
             "name": "mavision/framework",
-            "version": "dev-master",
+            "version": "v1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mavision/framework.git",
-                "reference": "06de13e8ee7c3bc644047cfb10e05523d309b632"
+                "reference": "9481817c631347144421e2cc13a826e149e0db1f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mavision/framework/zipball/06de13e8ee7c3bc644047cfb10e05523d309b632",
-                "reference": "06de13e8ee7c3bc644047cfb10e05523d309b632",
+                "url": "https://api.github.com/repos/mavision/framework/zipball/9481817c631347144421e2cc13a826e149e0db1f",
+                "reference": "9481817c631347144421e2cc13a826e149e0db1f",
                 "shasum": ""
             },
             "require": {
@@ -146,15 +95,10 @@
                 "vlucas/phpdotenv": "~2.2"
             },
             "suggest": {
-                "doctrine/dbal": "Required to rename columns and drop SQLite columns (~2.5).",
-                "fzaninotto/faker": "Required to use the eloquent factory builder (~1.4)."
+                "doctrine/dbal": "Required to rename columns and drop SQLite columns (~2.5)",
+                "fzaninotto/faker": "Required to use the eloquent factory builder (~1.4)"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0-dev"
-                }
-            },
             "autoload": {
                 "files": [],
                 "psr-4": {
@@ -179,7 +123,7 @@
                 "mavision",
                 "php"
             ],
-            "time": "2017-12-10 07:43:38"
+            "time": "2017-12-10T08:58:00+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -232,11 +176,61 @@
             "time": "2016-09-01T10:05:43+00:00"
         }
     ],
+    "packages-dev": [
+        {
+            "name": "fzaninotto/faker",
+            "version": "v1.7.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fzaninotto/Faker.git",
+                "reference": "d3ed4cc37051c1ca52d22d76b437d14809fc7e0d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/d3ed4cc37051c1ca52d22d76b437d14809fc7e0d",
+                "reference": "d3ed4cc37051c1ca52d22d76b437d14809fc7e0d",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3.3 || ^7.0"
+            },
+            "require-dev": {
+                "ext-intl": "*",
+                "phpunit/phpunit": "^4.0 || ^5.0",
+                "squizlabs/php_codesniffer": "^1.5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.8-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Faker\\": "src/Faker/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "François Zaninotto"
+                }
+            ],
+            "description": "Faker is a PHP library that generates fake data for you.",
+            "keywords": [
+                "data",
+                "faker",
+                "fixtures"
+            ],
+            "time": "2017-08-15T16:48:10+00:00"
+        }
+    ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "mavision/framework": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
