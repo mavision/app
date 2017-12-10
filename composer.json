@@ -3,6 +3,7 @@
     "description": "The Mavision Framework",
     "keywords": ["framework", "mavision", "php"],
     "license": "MIT",
+    "version": "1.0.0-beta",
     "authors": [
         {
             "name": "Marwen Hlaoui",

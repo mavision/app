@@ -20,7 +20,7 @@
 ## Install
 
 ```bash
-composer create-project mavision/app
+composer create-project mavision/app your-app-name
 ```
 
 ## License
