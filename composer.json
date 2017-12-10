@@ -1,8 +1,16 @@
 {
     "name": "mavision/app",
     "description": "The Mavision Framework",
-    "keywords": ["framework", "mavision"],
+    "keywords": ["framework", "mavision", "php"],
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Marwen Hlaoui",
+            "email": "marwenhlaoui@gmail.com",
+            "homepage": "http://marwenhlaoui.me",
+            "role": "Developer"
+        }
+    ],
     "type": "project",
     "require": {
         "php": ">=7.0.0"

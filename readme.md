@@ -15,8 +15,8 @@
 
 ## Install
 
-```git
-$git clone https://github.com/mavision/app your-app-name
+```bash
+composer create-project mavision/app
 ```
 
 ## License
