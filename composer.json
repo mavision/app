@@ -15,11 +15,11 @@
     "minimum-stability": "stable",
     "type": "project",
     "require": {
-        "php": ">=7.0.0",
-        "mavision/framework": "^1.0@dev"
+        "php": ">=7.0.0"
     },
     "require-dev": {
-        "fzaninotto/faker": "~1.4"
+        "fzaninotto/faker": "~1.4",
+        "mavision/framework": "^1.0@dev"
     },
     "autoload": {
         "psr-4": {
