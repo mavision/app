@@ -1,4 +1,3 @@
-
 <p align="center">
 	<img src="http://s21.postimg.org/femk919yr/logo1.png" alt="Mavision">
 </p>
