@@ -1,0 +1,8 @@
+/node_modules
+/public/
+/vendor
+/.idea
+/.vagrant
+npm-debug.log
+yarn-error.log
+.env
