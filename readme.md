@@ -3,6 +3,10 @@
 	<img src="http://s21.postimg.org/femk919yr/logo1.png" alt="Mavision">
 </p>
 
+## About
+
+ Mavision is a web application framework with easy syntax.
+
 #### Server Requirements
 
  You will need to make sure your server meets the following requirements :
