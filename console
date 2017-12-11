@@ -11,10 +11,13 @@
 /*
  * Start console time
  */
+
 define('APP_START', microtime(true));
 
 /*
  * Include composer auto loader
  */
+
 require __DIR__.'/vendor/autoload.php';
+
 
